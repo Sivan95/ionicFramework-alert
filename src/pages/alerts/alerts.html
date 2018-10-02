@@ -1,0 +1,23 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Alerts</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <button ion-button block color = "dark" (click) = "doAlert()" flex= 1>
+        Show Basic Alert
+    </button>
+    <button ion-button block color = "danger" (click) = "doCheckbox()" flex= 1>
+        Show Checkbox Alert
+    </button>
+    <button ion-button color="primary" block (click) = "doConfirm()" flex= 1>
+        Show Confirm Alert
+    </button>
+    <button ion-button color = "secondary" block (click)="doPrompt()" flex= 1>
+        Show Prompt Alert
+    </button>
+    <button ion-button block light (click)= "doRadio()" flex= 1>
+        Show Radio Alert
+    </button>
+</ion-content>
