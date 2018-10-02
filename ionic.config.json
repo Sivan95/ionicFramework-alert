@@ -1,0 +1,7 @@
+{
+  "name": "Alert",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
